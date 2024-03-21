@@ -33,6 +33,8 @@ inx/html nginx
 
 15. docker volume plune : vai limpar todos os dados dos volumes.
 
+16. docker rmi image-name : remove a imagem
+
 
 ### Notes
 
@@ -70,3 +72,5 @@ inx/html nginx
 16. --mount tem vantagem pois caso voce coloque uma pasta ou caminho errado, ele vai reclamar e nao vai criar essa pasta, no caso a -v vai criar essa pasta.
 
 17. com volume você pode definir e compartilhar propriedades do volume assim podendo acessar em diferentes imagens os mesmos arquivos compartilhados.
+
+18. Docker hub - Diretorio de imagens
