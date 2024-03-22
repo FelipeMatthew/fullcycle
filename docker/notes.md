@@ -35,6 +35,8 @@ inx/html nginx
 
 16. docker rmi image-name : remove a imagem
 
+17. docker build -t felipematthewdev/nginx-com-vim:latest ./docker : Vai pegar o arquivo dockerfile criado e vai realizar o build dele, assim criando uma imagem e passando o caminho que tem esse dockerfile
+
 
 ### Notes
 
@@ -74,3 +76,5 @@ inx/html nginx
 17. com volume você pode definir e compartilhar propriedades do volume assim podendo acessar em diferentes imagens os mesmos arquivos compartilhados.
 
 18. Docker hub - Diretorio de imagens
+
+19. -t : tag, nome que será dado para imagem
