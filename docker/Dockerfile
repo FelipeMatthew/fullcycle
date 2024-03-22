@@ -1,14 +1,9 @@
 # Receita de bolo - Passo a passo
-FROM nginx:latest
+FROM ubuntu:latest
 
-# Criar usuário
-USER felipe
+# comando pode ser alterado após buildado - comando variado
+CMD [ "echo", "Hello world" ]
 
-# Diretório que vai trabalhar dentro do container
-WORKDIR /app
+# comando fixo
+ENTRYPOINT [ "echo", "world" ]
 
-RUN apt-get update && \
-    apt-get install vim -y
-
-# Copiar e mandar para o destino selecionado
-COPY html /usr/share/nginx

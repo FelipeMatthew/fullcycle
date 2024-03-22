@@ -37,6 +37,8 @@ inx/html nginx
 
 17. docker build -t felipematthewdev/nginx-com-vim:latest ./docker : Vai pegar o arquivo dockerfile criado e vai realizar o build dele, assim criando uma imagem e passando o caminho que tem esse dockerfile
 
+18. docker rm $(docker ps -a -q) -f : -q vai pegar todos os ids ativos e não ativos, e o $() vai remover todos os containers de uma vez
+
 
 ### Notes
 
@@ -80,3 +82,7 @@ inx/html nginx
 19. -t : tag, nome que será dado para imagem
 
 20. Docker faz um reaproveitamento dos chunks - layers de comandos rodados, caso já tenha feito determinado comando ele irá ser reaproveitado.
+
+21. O entrypoint roda apenas comandos fixos, já o cmd ele pega a base do entry e permite que seja realizado comandos configuráveis  - primeiro entry depois cmd
+
+22. o comando exec "$@" : permitirá que seja passado linhas de comando após executar o entrypoint, assim voce podendo configurar e mexer da meneira que queira na imagem gerada 
