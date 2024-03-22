@@ -78,3 +78,5 @@ inx/html nginx
 18. Docker hub - Diretorio de imagens
 
 19. -t : tag, nome que será dado para imagem
+
+20. Docker faz um reaproveitamento dos chunks - layers de comandos rodados, caso já tenha feito determinado comando ele irá ser reaproveitado.
