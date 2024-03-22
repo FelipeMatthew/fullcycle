@@ -12,7 +12,7 @@
 
 5. docker run -it ubuntu:latest bash : Rodar e buscar a imagem do ubuntu
 
-6. docker run -d -p  8080:80 nginx 
+6. docker run -d -p 8080:80 nginx 
 
 7. docker stop id
 
@@ -38,6 +38,10 @@ inx/html nginx
 17. docker build -t felipematthewdev/nginx-com-vim:latest ./docker : Vai pegar o arquivo dockerfile criado e vai realizar o build dele, assim criando uma imagem e passando o caminho que tem esse dockerfile
 
 18. docker rm $(docker ps -a -q) -f : -q vai pegar todos os ids ativos e não ativos, e o $() vai remover todos os containers de uma vez
+
+19. docker login
+
+20. docker push felipematthewdev/nginx-fullcycle
 
 
 ### Notes

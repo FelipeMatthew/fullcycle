@@ -1,9 +1,9 @@
-# Receita de bolo - Passo a passo
-FROM ubuntu:latest
+FROM nginx:latest
 
-# comando pode ser alterado após buildado - comando variado
-CMD [ "echo", "Hello world" ]
+COPY html /usr/share/nginx
 
-# comando fixo
-ENTRYPOINT [ "echo", "world" ]
+ENTRYPOINT ["/docker-entrypoint.sh"]
+CMD ["nginx", "-g", "deamon off;"]
+
+
 
