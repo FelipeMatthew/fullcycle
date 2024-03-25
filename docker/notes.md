@@ -90,3 +90,10 @@ inx/html nginx
 21. O entrypoint roda apenas comandos fixos, já o cmd ele pega a base do entry e permite que seja realizado comandos configuráveis  - primeiro entry depois cmd
 
 22. o comando exec "$@" : permitirá que seja passado linhas de comando após executar o entrypoint, assim voce podendo configurar e mexer da meneira que queira na imagem gerada 
+
+23. Networks 
+    - bridge : facilita comunicação de containers. 
+    - host : mescla a network do docker com a máquina
+    - overlay : comunicaçao de containers em máquinas diferentes - geralmente utilizado com sworm - que é modo de mais de um container e conseguir fazer a gestão deles por camadas
+    - maclan : definir um macadress fixo
+    - none: none 
