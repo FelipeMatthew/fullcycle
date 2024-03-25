@@ -9,5 +9,5 @@ EXPOSE 3000
 
 ENTRYPOINT [ "node", "index.js" ]
 
-# docke build -t felipematthewdev/node-express .
+# docker build -t felipematthewdev/node-express .
 # docker run --rm -d --name express-node -p 3000:3000 felipematthewdev/node-express:latest
