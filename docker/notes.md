@@ -43,6 +43,21 @@ inx/html nginx
 
 20. docker push felipematthewdev/nginx-fullcycle
 
+21. docker network ls : lista todas as conexões
+
+22. docker attach nome-da-imagem : vai possibilitar que entre no bash da imagem
+
+23. docker network create --driver bridge minha-rede : criando uma rede
+
+24. docker run -dit --name ubuntu1 --network minha-rede bash : define a imagem para um rede
+
+25. docker network connect nome-da-network nome-da-imagem : vai pegar e conectar na rede
+
+26. docker network inspect nome-da rede : vai gerar um json de detalhes e conexões dessa rede
+
+27. docker run -d --name nginx1 --network host nginx : vai abrir o container direto na sua máquina
+
+28. curl http://host.docker.internal:8080 : vai acessar de DENTRO DO CONTAINER a porta 8000 da minha máquina. Processo inverso do já visto acima.
 
 ### Notes
 
@@ -93,7 +108,12 @@ inx/html nginx
 
 23. Networks 
     - bridge : facilita comunicação de containers. 
-    - host : mescla a network do docker com a máquina
+    - host : mescla a network do docker com a máquina - junta a rede assim acessando no localhost já diretamenteS
     - overlay : comunicaçao de containers em máquinas diferentes - geralmente utilizado com sworm - que é modo de mais de um container e conseguir fazer a gestão deles por camadas
     - maclan : definir um macadress fixo
     - none: none 
+
+24. quando se é definida a network que a imagem irá utilizar você consegue acessar ela diretamente pelo DNS dela
+
+25. host: junta a rede
+
