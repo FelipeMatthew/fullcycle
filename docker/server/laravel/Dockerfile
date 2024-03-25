@@ -19,3 +19,6 @@ ENTRYPOINT [ "php" , "laravel/artisan", "serve" ]
 
 # Utilizado para quase queira alterar, seja passado depois da imagem
 CMD [ "--host=0.0.0.0" ]
+
+# docker build -t felipematthewdev/laravel:latest .
+# docker run --rm -d --name laravel -p 8000:8000 felipematthewdev/laravel

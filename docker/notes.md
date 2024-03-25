@@ -65,6 +65,8 @@ inx/html nginx
 
 31. Docker logs nome-do-container : vai pegar e mostrar todos os logs do container rodando
 
+32. docker build -t felipematthewdev/node-express . -f Dockerfile.prod : vai subir para produção o arquivo prod
+
 ### Notes
 
 1. -i : modo interativo manter o sistema rodando liberando para que você consiga codar  -t: TTY - digitar e rodar comandos
@@ -123,3 +125,4 @@ inx/html nginx
 
 25. host: junta a rede
 
+26. Utilizado o .prod para quando for fazer o pull dessa imagem ela ja subir direto da prod enquando a dockerfile roda todos os comandos mas quando for subir sobe apenas o necessário.
