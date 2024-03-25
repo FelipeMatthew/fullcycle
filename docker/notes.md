@@ -59,6 +59,12 @@ inx/html nginx
 
 28. curl http://host.docker.internal:8080 : vai acessar de DENTRO DO CONTAINER a porta 8000 da minha máquina. Processo inverso do já visto acima.
 
+29. docker rmi $(docker images -a -q) -f
+
+30. docker rm $(docker ps -a -q) -f
+
+31. Docker logs nome-do-container : vai pegar e mostrar todos os logs do container rodando
+
 ### Notes
 
 1. -i : modo interativo manter o sistema rodando liberando para que você consiga codar  -t: TTY - digitar e rodar comandos
