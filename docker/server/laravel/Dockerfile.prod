@@ -17,14 +17,17 @@ RUN php -r "copy('https://getcomposer.org/installer', 'composer-setup.php');" &&
 RUN php composer.phar create-project --prefer-dist laravel/laravel laravel
 
 # Multistage Building
-FROM php:7.4-fmp-alpine
+FROM php:7.4-fpm-alpine
 WORKDIR /var/www
 RUN rm -rf /var/www/html
 #vai copiar com base na imagem criada acima, após isso vai copiar todos os arquivos desta pasta e passsar para o container
 COPY --from=builder /var/www/laravel .
 
+# link simbolico - vai pegar o arquivo de uma pasta e fazer uma espécie de atalho assim quando for chamado pelo apelido irá rodar o arquivo
+RUN ln -s public html
+
 # Deu permissão para ser dono dos arquivos
-RUN chown -R www-data:www-data ./var/www
+RUN chown -R www-data:www-data /var/www
 
 EXPOSE 9000
 

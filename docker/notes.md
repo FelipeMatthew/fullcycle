@@ -128,3 +128,5 @@ inx/html nginx
 26. Utilizado o .prod para quando for fazer o pull dessa imagem ela ja subir direto da prod enquando a dockerfile roda todos os comandos mas quando for subir sobe apenas o necessário.
 
 27. É utilizado o alpine linux para que seja feito que assim que subir esse container ele será mais leve por conta do sistema operacional. 
+
+28. Projeto criado utilizando proxy inverso do nginx com o laravel, ele vai criar dois container e comunicarem entre si, o laravel acessa o nginx e transmite a imagem, assim ele passa para o nginx e o nginx para o cliente e vice-versa
