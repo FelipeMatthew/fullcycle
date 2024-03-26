@@ -126,3 +126,5 @@ inx/html nginx
 25. host: junta a rede
 
 26. Utilizado o .prod para quando for fazer o pull dessa imagem ela ja subir direto da prod enquando a dockerfile roda todos os comandos mas quando for subir sobe apenas o necessário.
+
+27. É utilizado o alpine linux para que seja feito que assim que subir esse container ele será mais leve por conta do sistema operacional. 
