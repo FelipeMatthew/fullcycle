@@ -134,3 +134,9 @@ inx/html nginx
 27. É utilizado o alpine linux para que seja feito que assim que subir esse container ele será mais leve por conta do sistema operacional. 
 
 28. Projeto criado utilizando proxy inverso do nginx com o laravel, ele vai criar dois container e comunicarem entre si, o laravel acessa o nginx e transmite a imagem, assim ele passa para o nginx e o nginx para o cliente e vice-versa
+
+29. dependências de containers 
+    - dockerize
+    - wait-for-it
+    - depends-on
+    - healthcheck
