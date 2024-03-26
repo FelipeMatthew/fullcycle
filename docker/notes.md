@@ -67,6 +67,10 @@ inx/html nginx
 
 32. docker build -t felipematthewdev/node-express . -f Dockerfile.prod : vai subir para produção o arquivo prod
 
+33. docker-compose up -d
+
+34. docker-compose up -d --build : vai rebuildar o container
+
 ### Notes
 
 1. -i : modo interativo manter o sistema rodando liberando para que você consiga codar  -t: TTY - digitar e rodar comandos
