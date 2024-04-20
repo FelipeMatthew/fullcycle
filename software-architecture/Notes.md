@@ -1,1 +1,38 @@
-# testing new files
+# Tipos de arquiteturas
+
+- software
+- solução 
+- tecnológica
+- corporativa
+
+## Tecnológica
+## Corporativa
+
+## Soluções
+
+- Trabalha entre área de negocio e software
+- Pega os requisitos e ve soluções de software
+- Desenha e projeta arquiteturas de sistemas
+- Pega o contexto e ve a melhor maneira e linguagem conforme o contexto.
+- Impacta nos custos
+
+## Software
+
+- É uma disciplina da engenharia de software
+- Ligada ao processo de desenvolvimento
+- Formação de times e equipes, estrutura componentes
+- Lei de Conway
+  - Software é desenvolvido com base na sua empresa e equipe e ira ser um espelho da sua empresa
+- 'Bem como principio que guiam seu design e sua evolução'
+
+  ### Papel do Arquiteto
+
+  - Transforma o requisito do negocio em arquitetura
+  - Comunica com os desenvolvedores e fala com os Expert de domínio 
+    - Pessoas que vai entender a dor cliente e passa para equipe de desenvolvimento
+  - Entender os contextos e aplicar a melhor solução para modelos arquiteturais
+  - Boas práticas de desenvolvimento
+  
+  ### Por que aprender? 
+
+  -  
