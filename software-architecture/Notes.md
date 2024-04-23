@@ -35,4 +35,21 @@
   
   ### Por que aprender? 
 
-  -  
+  - Tomada de decisão melhorada
+  - Sustentabilidade e longo prazo
+  - Tem conhecimentos das tecnologias e saber a melhor para tal ambiente
+  - Boas práticas e padrões de projeto
+  - Impactos para com a empresa
+
+  ### Arquitetura X Design 
+
+  - Arquitetura mais alto nivel
+  - Design mais baixo nivel
+
+  ### Sustentabilidade 
+
+  - Alto custo
+  - Resolve uma dor
+  - Se pagar ao longo do tempo
+  - Acompanha evolução do negócio
+  
