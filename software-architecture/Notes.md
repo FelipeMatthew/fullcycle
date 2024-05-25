@@ -118,3 +118,41 @@
   
   - Escalabilidade
      - Verticalmente é quando aumentamos o recurso computacional na nossa máquina e horizontalmente é quando adicionamos mais máquinas, mais recurso computacional de forma horizontal.
+
+  ### Estrutural
+
+  - Enfase na parte do SOFTWARE, para que seja mais flexivel
+
+  - Configuravel
+    - Variaveis globais?
+    - Testa ela em produção, precisa mudar alguma variavel ou configuração?
+  
+  - Extensibilidade
+    - Conseguir trabalhar com uma aplicação que de para adicionar funções sem que caia
+    - Começa a entrar na parte de camadas, ao qual facilita na mudança e manutenção
+    - Pode querer trocar algo, pode querer trocar banco de dados, pode adicionar novos modulos
+  
+  - Facil instalação
+    - Trabalhar em outros ambientes de maneira facil e prática
+    - Padronização de ambientes: Containers - DOCKER
+    - Deixar ja configurado
+
+  - Reuso de componentes
+    - As vezes equipes criam recursos iguais e não aproveita da maneira correta a componentização
+  
+  - Internacionalização
+    - lingua do sistema
+    - Tradução
+    - já pensar em futuramente, qual modeda vai usar? politica de preço, trabalhar com sistema no exterior
+  
+  - Fácil manutenção
+    - Quanto mais simples, mais facil a manutenção dele
+    - Pensar nas camadas, trabalhar com SOLID
+    - Testes, trabalhar com eles na prática
+  
+  - Portabilidade
+    - diversos bancos de dados
+    
+  - Fácil suport
+    - Logs, Debugging
+    - suporte da aplicação 
