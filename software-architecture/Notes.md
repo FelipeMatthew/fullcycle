@@ -90,3 +90,31 @@
   - Operacionais
   - Estruturais
   - Cross-Cutting
+
+  Sempre pensar: 'Como vou focar nisso?'
+
+  ### Operacionais
+
+  - Foco na disponibilidade
+    - Pensar 'O quando de disponibilidade devo focar'
+
+  - Recuperação de desastres
+    - Pensar em caso aconteça imprevistos
+
+  - Performance
+    - 'Quantas request por segundo o meu sistema vai ter?'
+
+  - Backup
+    - Como esta fazendo backup
+    - Fazer teste no backup
+    - Trabalhar com politica de teste de backup
+
+  - Confiabilidade e segurança
+    - Basico que deixa passar
+  
+  - Robustez
+    - Quão robusto seu sistema vai ser
+    - Quantas máquinas
+  
+  - Escalabilidade
+     - Verticalmente é quando aumentamos o recurso computacional na nossa máquina e horizontalmente é quando adicionamos mais máquinas, mais recurso computacional de forma horizontal.
