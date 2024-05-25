@@ -59,3 +59,19 @@
     - Atender o objetivo do negocio, de facil expansão
   - Componentização
   - Relacionamento entre sistemas
+  - Governança
+    - Padronização, regras, linguagens, sistemas
+
+  ### RAs Requisistos arquiteturais
+  
+  - como que aqueles requisitos vão poder impactar diretamente na arquitetura do meu software?
+  - Quais são os requisitos desses tópicos
+  - Requisito para performance 
+    - Quanto tempo para fazer a requisição?
+  - Armazenamento de dados
+  - Escalabilidade
+  - Segurança
+  - Legal
+    - EX: LGPD
+  - Audit  - Audições
+  - Marketing
