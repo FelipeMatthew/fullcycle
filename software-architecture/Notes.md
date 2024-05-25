@@ -1,5 +1,7 @@
 # Tipos de arquiteturas
 
+ ## Modulo 1 - Fundamentos
+ 
 - software
 - solução 
 - tecnológica
@@ -75,3 +77,16 @@
     - EX: LGPD
   - Audit  - Audições
   - Marketing
+
+
+  ## Modulo 2 - Características Arquiteturais
+
+  - Pensar a longo prazo
+  - Resiliência 
+  - Entender caracteristicas arquiteturais, para que não faça na sorte, exemplo da resiliencia, as vezes você faz ela sem intenção
+
+  Divididas em 3 áreas
+
+  - Operacionais
+  - Estruturais
+  - Cross-Cutting
