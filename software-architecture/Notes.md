@@ -53,3 +53,9 @@
   - Se pagar ao longo do tempo
   - Acompanha evolução do negócio
   
+  ### Pilares
+
+  - Estrutura do software 
+    - Atender o objetivo do negocio, de facil expansão
+  - Componentização
+  - Relacionamento entre sistemas
