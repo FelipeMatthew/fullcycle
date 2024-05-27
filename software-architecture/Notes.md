@@ -156,3 +156,35 @@
   - Fácil suport
     - Logs, Debugging
     - suporte da aplicação 
+
+
+  ### Cross Cutting
+
+  - Acessibilidade
+    - Qual o publico principal? 
+    - Ta facil? Cego consegue acessar?
+      - Front-end em específico
+  
+  - Quanto tempo os dados serão mantidos?
+
+  - Autenticação e Autorização
+    - API Gateway
+
+  - Legal
+    - Onde os dados vão estar mantido? Segue na lei?
+    - Criptografado?
+  
+  - Privacidade
+    - LGPD 
+    - Minimizar vazamento de dados, e afins
+    - Politica de privacidade
+  
+  - Segurança
+    - Web firewall
+    - mecanismos que verifica robos
+    - Manter acessos separados, não deixar tudo junto
+  
+  - Usabilidade
+    - Como está organizado a sua API?
+    - Documentação? Quem é o meu cliente?
+    - Melhor forma para pessoa trabalhar com sua aplicação
