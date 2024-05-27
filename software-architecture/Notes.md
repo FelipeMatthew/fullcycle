@@ -268,4 +268,46 @@
 
   ### Caching
 
+  - Diminuir o response time e aumentar a quantidade de request (Throughtput)
+
+  - Cache na borda / Edge computing
+    - Cloudflare
+      - uma ferramenta que fica na borda para tratar dos caches
+      - Vai pegar e fazer download do html css da aplicacao antes mesmo de chegar no kubernet e informar que tem acesso
   
+  - Dados estáticos
+    - imagens, css
+
+  - Pagina WEB
+    - Ex utilizar o next
+      - Consegue transmitir paginas estática la para borda assim deixando ela em cache
+  
+  - Funções internas
+    - evita processamento de algoritmios pesados
+    - acesso ao banco de dados
+  
+  - Objetos
+
+
+  Caching: Exclusivo x Compartilhado
+
+  - Exclusivo
+    - Vai trablhar apenas naquela máquina
+    - Baixa latência
+    - Duplicado entre nós
+    - Problemas relacionado a sessões
+      - Cache em logins, ficar salvo em apenas uma máquina e se precisar utilizar outra maquina tem esse problema
+  
+  - Compartilhado
+    - Servidor de cache
+    - Maior latência
+    - Ele tem um cache central, por isso a latencia maior, para chegar nesse cache
+    - Sem duplicidade
+    - Logins consegue ser utilizado em varias máquinas, ele é centralizado
+    - Banco de dados externo
+      - Todos acessam o mesmo banco de dados
+        - Pode ate cachear os bancos de dados para melhor utilização
+          - Ferramentas SQL
+            - MYSQL
+            - Redis - Mais utlizada
+            - MemChache
