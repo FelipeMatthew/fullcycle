@@ -311,3 +311,34 @@
             - MYSQL
             - Redis - Mais utlizada
             - MemChache
+
+  ### Caching: Edge computing
+
+  - Exemplo da netflix
+    - Fornece serviços que processa informações mais proximo do usuário assim não sendo necessário entrar em contato la com datacenter que daria muita dor de cabeça.
+    - Envia para borda, economiza muito no servidor, melhora a UX pois o conteudo já está na borda e nao tem tanta demora, assim melhorando a experiencia. 
+
+  - Cache mais proximo do usuário
+
+  - Evita req chegar ate a infra / Cloud provider
+
+  - Normalmente arquivos estáticos
+    - Cloudflare
+
+  - CDN - Content Delivery Network
+    - Pega e envia um container, para uma região, assim um exemplo: video ja manda para borda para que acesse mais rapido.
+    - Video baixado de uma regiao proxima
+      - Akamai
+        - midgress
+          - Quando o video não está disponivel na cdn ele vai buscar em outro local para trazer, assim cobrando taxa de banda, e a taxa de espalhamento que vai mandar para outros 
+
+  - Cloudflare Workers
+    - Plataforma de edge computing
+    - Acessa plataforma mais proxima e executa diretamente um javascript e manda cacheando para maquina e espalhando para outras regioes
+
+  - Vercel
+    - NextJs
+      - Trabalha com chaching da melhor maneira
+    - Revalida caches
+
+  - AKAMAI
