@@ -242,3 +242,30 @@
 
   - Caching
     - Trabalhar com cache em disco ou em memória
+
+
+  ### Capacidade computacional: Escala vertical x Horizontal
+  
+  - Escala vertical
+    - Aumenta os recursos COMPUTACIONAIS  
+      - Ao invés de ficar melhorando e aplicando boas práticas para economizar processamento e velocidade de req res, voce apenas aumenta a capacidade computacional - Aumenta threads, memoria, quantidades a ser recebida
+  
+  - Escala horizontal
+    - Ao inves de aumentar a capacidade da máquina, voce aumenta a quantidade de máquina e começa a trabalhar com balanceamento de carga
+
+  Escalabilidade - Muito importante para performance
+
+  ### Concorrência x Paralelismo
+  
+  - "Concorrencia é sobre lidar com muiitas coisas ao mesmo tempo, Paralelismo é sobre fazer muitas coisas ao mesmo tempo" - ROB PIKE
+
+  - Trbalhar de forma serial: 
+    - Trabalha uma de cada vez
+
+  - Forma concorrente / Paralela
+    - 5 threads atendendo ao mesmo tempo
+    - Um ex prático é o APACHE, NodeJS - Consegue trabalhar com tudo ao mesmo tempo
+
+  ### Caching
+
+  
