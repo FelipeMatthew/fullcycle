@@ -214,3 +214,31 @@
       - Diretamente ligado a latência.
 
   - Resumo: Aumenta a quantidade de request q pode ser recebida e diminui o tempo de resposta.
+
+
+  ### Principais razões para baixa performance
+
+  - Processamento ineficiente
+  - Recurso computacional limitado
+  - Trabalhar de forma bloqueante
+    - Recebe a requisição e caso tenha erro ou algo ela acaba bloqueando a aplicação
+      - A meneira de resolver isso é fazer com que trabalhe de maneira que acabe colocando em outras threads ou nao travando todo o sistema.
+  - Acesso serial a recursos
+  
+
+  Principais formas para aumentar a eficiência
+  
+  - Escala da capacidade computacional
+    - Saber a quantidade de dados e o tamanho da sua aplicação, sempre visando a durabilidade e escalabilidade
+  
+  - Lógica por trás do software
+    - As vezes algoritimo, requisição desnecessária
+  
+  - Concorrência e paralelismo
+    - Lidar com diversas coisas ao mesmo tempo, em conjunto.
+  
+  - Banco de dados
+    - Tipos de banco de dados, Schema
+
+  - Caching
+    - Trabalhar com cache em disco ou em memória
