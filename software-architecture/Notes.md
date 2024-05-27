@@ -342,3 +342,22 @@
     - Revalida caches
 
   - AKAMAI
+
+
+  ## Modulo 4 - Escalabilidade
+
+  - É a capacidade de um sistema conseguir aumentar ou diminuir a carga de tabalho dela aumentando ou diminuindo custos computacional, em sua proporção
+
+  - Ter a visao de aumentar ou diminuir a quantidade de throughtput, assim trablahando da melhor maneira para seu sistema, não deixando assim ele ficar com muitos dados inuteis ou poucos dados.
+
+  Escalando software
+  
+  - Vertical x Horizontal
+
+  - Vertical
+    - Uma máquina de 64 de RAM
+    - Ruim pois se cair esse sistema cai tudo
+
+  - Horizontal - Pode trabalhar com proxy reverso que vai agir e trabalhar com o balanceamento de carga
+    - 4 Máquinas com 16 de RAM
+    - Máquinas mais fracas porém dividem as funçoes e capacidade
