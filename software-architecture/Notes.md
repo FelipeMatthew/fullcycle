@@ -188,3 +188,29 @@
     - Como está organizado a sua API?
     - Documentação? Quem é o meu cliente?
     - Melhor forma para pessoa trabalhar com sua aplicação
+
+
+  # Perspectivas para arquitetar software de qualidade
+
+  ## Modulo 3 - Performance
+  
+  - É o desempenho que o SW possui para completar uma determinada carga de trabalho (workload) 
+    - É necessário ter dados para verificar a performance
+      - Latência (Response time)
+        - Quanto tempo leva para fazer as request`s, o tempo te resposta, response
+        - Throughtput
+          - Mostra o quanto de request esse software consegue aguentar
+  
+  - Ter um software perfomatico é diferente de ter um software escalável
+
+  - Metricas de medir performance
+    - Diminuir latência (Response time)
+      - Medida em MS
+    - Afetada com base na rede da aplicação, chamadas externas
+      - Ex: faz uma resquest do cep para api dos correios
+        - se o sistema dos correios estiver lento, vai afetar a perfomance do seu sistema (Chamada externa)
+    - Aumentar o Throughtput
+      - Aumentar a quantidade de request que pode ser recebida, e mais rapido responder
+      - Diretamente ligado a latência.
+
+  - Resumo: Aumenta a quantidade de request q pode ser recebida e diminui o tempo de resposta.
