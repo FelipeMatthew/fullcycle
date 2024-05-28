@@ -387,3 +387,17 @@
 
   
   ### Proxy reverso
+
+  - Proxy normal
+    - Um procurador, uma função que vai atras do site que voce quer, ver se consegue acessar e está disponível e vai redirecionar voce para esse site
+  
+  - Proxy reverso
+    - Faz o roteamento
+    - Trabalha com caching
+    - Servidor q fica na frente do server web
+    - Vai te mandar para o melhor servidor, dividindo assim nao tendo tanta sobrecarga
+    - Server para segurança e balanceamento de carga
+
+    - Nginx
+    - HAProxy (HA = High Availability)
+    - Traefik
