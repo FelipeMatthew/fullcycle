@@ -361,3 +361,29 @@
   - Horizontal - Pode trabalhar com proxy reverso que vai agir e trabalhar com o balanceamento de carga
     - 4 Máquinas com 16 de RAM
     - Máquinas mais fracas porém dividem as funçoes e capacidade
+
+  ### Escalando banco de dados
+
+  - Aumentar recurso computacional
+    - Sempre tem um limite
+  
+  - Distribuir responsabilidade
+    - Trabalhar um só com leitura, e outro só com a escrita
+  
+  - Shards de forma horizontal
+    - pega um so para leitura outro so para ecrita
+
+  - Serverless
+    - Deixar o cloudprovider trabalhar com isso 
+    - Não é necessário se preocupar com lado do servidor
+
+  Otimização de banco de dados - Principais gargalos
+
+  - Trabalha com indice da forma correta, 
+  - APM - Analisa latencia de cada queries 
+  - Explain nas queries
+    - Saber o pq esta demorando
+  - CQRS - Separa escrita e leitura - um pattern
+
+  
+  ### Proxy reverso
