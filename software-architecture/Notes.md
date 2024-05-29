@@ -401,3 +401,25 @@
     - Nginx
     - HAProxy (HA = High Availability)
     - Traefik
+
+
+    ## Modulo 5 - Resiliência
+
+    - Poder de se adaptar para quando algo que não esteja esperando aconteça, ex: uma request errada, como vai tratar?
+
+    - Fazer de forma intencional para que quando der erro você já ter o plano b
+      
+    - O que fazer quando sistema caia?
+      - Plano A
+      - Plano B
+      - Plano C
+    
+    - Minimiza risco de perder dados, vendar, dinheiro, tudo
+
+    ### Proteger ou ser protegido?
+
+    - Autopreservação
+    - Ecosistema saudavel, mesmo que use sistemas externos, garantir a qualidade deles.
+    - Dependência entre sistemas
+    - Evitar que o sistema fique com overfloat ou fora do ar
+    - Melhor derrubar o sistema do que deixar ele lento, pois pode atrapalhar todos os outros sistemas dependêntes
