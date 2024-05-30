@@ -78,4 +78,26 @@
   - Exponential backoff Jitter
     - Mini algoritimo que vai mudando o tempo da req para que nenhuma faça ao mesmo tempo, deixando assim um ruido de tempo
 
+  ### Garantia de entrega: Kafka 
+
+  - Broker - Sistema que armazena mensagem
+  - Cluster - Conjunto de brokers
   
+  Modos de confirmação de mensagens
+
+  -  Fire and forget
+    - Metodo da uber, que vai mandando maximo de mensagem que der, e se caso perder alguma não tem problema
+    - Vantagem : Ser mais rapido pois não necessita de confirmação
+  
+  - Ack Leader
+    - Manda mensagem mas só para o broker lider, assim quando so o lider confirma, ele aprova
+    - Desvantagem: Se o sistema cair e nao conseguir replicar para os outros brokers, você vai perder a mensagem
+    
+  - Ack ALL
+    - Só retorna a mensagem quando todos os brokes receberem a mensagem
+    - Vantagem:
+      - Caso um caia os outros ainda terão a mensagem
+      - Garantia total de entrega de mensagem
+
+
+
