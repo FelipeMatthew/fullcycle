@@ -439,4 +439,19 @@
 
   	### Circuit Breaker
 
+    - Dijuntor do seu sistema, nega todas as req retornando o erro
+
+    - Fechado - req chega normal
+    - Aberto - retorna erro 500
+    - meio aberto - limita entre aberto e fechado
+
+    ### API Gateway
+
+    - Trabalha com todas as API`s, faz regras e gerenciamento delas
+    - Faz validações, como se fosse uma portaria
+      - Ao invés do usuário ficar fazendo overfloat no login o API Gateway vai nem deixar o usuário acessar sem determinada regra
+    - KONG - API Gateway. Utiliza o nxing,
+    - Consegue enviar politicas, health check, rate limiting
+
+
     
