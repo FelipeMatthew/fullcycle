@@ -423,3 +423,20 @@
     - Dependência entre sistemas
     - Evitar que o sistema fique com overfloat ou fora do ar
     - Melhor derrubar o sistema do que deixar ele lento, pois pode atrapalhar todos os outros sistemas dependêntes
+
+    ### Health Check
+
+    - Saber a saúde do sistema
+    - Salvar consultas enquanto sistema estiver fora
+    - url - /health que pinga o server e ver os dados que estão retornando e o time
+
+    ### Rate Limiting
+
+    - Proteje o sistema com base no que ele foi projetado para suportar
+    - Saber quantas requests o sistema aguenta
+    - Se ele responde 100 reqs por segundo,  ele só vai fazer isso e mais nada, caso passe ele já retorna o erro. Barra a reqs
+    - Ter um limite programado com base no client, no microservico que voce vai estar usando, definir criticidades e prioridades
+
+  	### Circuit Breaker
+
+    
