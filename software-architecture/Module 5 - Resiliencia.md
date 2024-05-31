@@ -99,5 +99,21 @@
       - Caso um caia os outros ainda terão a mensagem
       - Garantia total de entrega de mensagem
 
+  ### Situações complexas
+  
+  - O que acontece com mensagem broker cair?
+
+  - Pensar em todos os cenário e os mais absurdos
+    - EX: Multicloud
+
+  - Perda de mensagem?
+
+  - Sistema vai ficar fora do ar?
+
+  - Como garantir a resiliência?
+    - SPOF - Single point of failure 
+      - O pai de todo o sistema se ele cair ja era
+  
+
 
 
